@@ -46,7 +46,7 @@
 <div>
     <h1 class="h1">Welcome to Svelte Form! 🧑🏻‍💻👩🏽‍💻</h1>
     <h2 class="h2">Sign In</h2>
-    <form novalidate="novalidate" accept-charset="UTF-8" on:submit|preventDefault={onSubmit} class="sign-in-form">
+    <form novalidate accept-charset="UTF-8" on:submit|preventDefault={onSubmit} class="sign-in-form">
         <Input type="email"
                label="Email"
                minlength={validation.email.minlength}
@@ -62,7 +62,7 @@
                bind:value={form.password}
                required
                id="sign-in-password"/>
-        <a href="#">I forgot password or email</a>
+        <a href="/#">I forgot password or email</a>
         <Button type="submit" disabled={!form.email || !form.password}>Sign In</Button>
     </form>
 </div>
