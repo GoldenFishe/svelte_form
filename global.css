@@ -1,5 +1,9 @@
 :root {
     --transition: all 0.25s ease;
+    --accent: #0034ffb5;
+    --alert: #ff00008f;
+    --primary-text-color: #fff;
+    --secondary-text-color: #00000059;
 }
 
 * {
@@ -11,6 +15,11 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 input, button, textarea {
