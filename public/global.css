@@ -1,0 +1,40 @@
+:root {
+    --transition: all 0.25s ease;
+    --accent: #0034ffb5;
+    --alert: #ff00008f;
+    --primary-text-color: #fff;
+    --secondary-text-color: #00000059;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h1 {
+    font-size: 3.6rem;
+}
+
+.h2 {
+    font-size: 2.1rem;
+}
